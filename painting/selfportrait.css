@@ -21,6 +21,7 @@
     border-right:50px solid black;
     border-bottom: 25px solid transparent; 
     transform: rotate(25deg);
+    position: relative;
 }
 .hair2{
     height: 50px;
@@ -58,28 +59,32 @@
     transform: rotate(90deg);
 }
 
-/* 
+
 .hair5{
-    border-bottom: 50px solid black;
-	border-left: 25px solid transparent;
-	border-right: solid transparent;
-	height: 0;
-    width: 125px;
+    /* border-bottom: 50px solid black; */
+	/* border-left: 25px solid transparent; */
+    /* border-right: solid transparent; */
+    height: 50px;
+    width: 100px;
     position: relative;
     transform: rotate(-45deg);
-    left: 200;
+    left: -100px;
+    background-color:black;
+    bottom: 35px;
 }
-*/
+
 
 .hair6{
     height: 50px;
-    width: 250px;
+    width: 310px;
     background-color: black;
     position: relative;
-    left:-570px;
-    margin-top: 8em;
+    left: -570px;
+    margin-top: 7.5em;
     transform: rotate(90deg);
+    bottom: 20px;
 }
+
 
 .shades1{
     height: 50px;
@@ -109,7 +114,7 @@
     left:-519px;
     margin-top: 8em;
     transform: rotate(90deg);
-    bottom:225px;
+    bottom: 226px;
 }
 
 .shades4{
@@ -120,7 +125,7 @@
     left:227.99px;
     margin-top: 8em;
     transform: rotate(90deg);
-    bottom:372.1px;
+    bottom: 374.1px;
 }
 
 .nose1{
@@ -156,15 +161,32 @@
     left: 220px; 
     transform: rotate(22deg);
 }
+.white2{
+    height: 200px;
+    width: 50px;
+    position: relative;
+    background-color:white;
+    left: -140px;
+    transform: rotate(45deg);
+    bottom: 567px;
+}
+
+/* .white3{
+    height: 100px;
+    width: 50px;
+    position: relative;
+    background-color: black;
+    left: -140px;
+} */
 
 .chin{
     height: 4px;
     width: 90px;
     background-color: black;
     transform: rotate(25deg);
-    bottom: 260px;
+    bottom: 400px;
     position: relative;
-    left: -79px;
+    left: 140px;
 }
 
 .chin2{
@@ -172,9 +194,9 @@
     width: 90px;
     background-color: black;
     transform: rotate(155deg);
-    bottom: 259px;
+    bottom: 399px;
     position: relative;
-    left: -440px;
+    left: -6px;
 }
 
 .mouth{
@@ -184,5 +206,22 @@
     border-radius: 50%;
     position: relative;
     bottom: 430px;
-    left: 185px;
+    left: -477px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+p{
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 40px;
+    left: 200px;
+    bottom: 400px;
+}
+.image{
+    position: relative;
+    bottom:200px;
+    left:-30px;
 }
