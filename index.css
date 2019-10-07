@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+}
+.info{
+    color:white;
+}
+
+nav{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+.exercises{
+    text-align: center;
+}
