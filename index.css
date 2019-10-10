@@ -1,18 +1,78 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightpink;
+    background-color: rgb(255, 208, 215);
 }
 .info{
-    color:white;
+    color: rgb(156, 78, 117);
+    background-image: url(../CSCI202/pinkmarble.jpg);
+    min-height: 100px;
+    background-size: cover;
+    background-position: center;
+    padding-top:20px;
+    border-top: 5px solid turquoise;
+    border-bottom: 5px solid turquoise;
+    border-right: 5px solid turquoise;
+    border-left: 5px solid turquoise;
+}
+
+.projects{
+    background-repeat: no-repeat;
+    background-position: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
 }
 
 nav{
-    text-align: center;
-    display: inline-block;
+    background-color: #fff;
     position: relative;
-    padding: 20px;
 }
+
+ul nav{
+    list-style-type: none;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: none;
+    margin-block-end: none;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+nav li{
+    display:inline-block;
+}
+nav a{
+    /* display: block; */
+    position: relative;
+    color: lightpink;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a{
+    display: block;
+    float: center;
+    text-align: center; 
+    text-decoration: none;
+}
+
+li{
+    padding-left: 5em;
+    padding-right: 2em; 
+}
+
 .exercises{
     text-align: center;
+    text-decoration: none;
+    color: lightpink;
+    background-color: #fff;
+}
+h2 ul a{
+    
 }
