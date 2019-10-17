@@ -1,0 +1,50 @@
+.navbar{
+    background:#282828;
+}
+.nav-link,
+.navbar-brand{
+    color:#ffff;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right:1em !important;
+}
+
+.navbar-collapse{
+    justify-content:flex-end;
+}
+
+
+/* Main banner */
+.jumbotron{
+    min-height:700px;
+    background-image:url(images/header-bg.jpg);
+    background-size:cover;
+    color:#ffff;
+}
+
+.jumbotron.container{
+    width:40%;
+    margin: 0 auto;
+    padding-top: 14%;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background:#282828;
+    color: #fff;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+}
+
