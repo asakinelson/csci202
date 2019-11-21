@@ -3,26 +3,45 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 208, 215);
 }
+h2{
+   background-color:white;
+   color:rgb(156, 78, 117);
+}
 .info{
     color: rgb(156, 78, 117);
-    background-image: url(pinkmarble.jpg);
+    background-image: url(../CSCI202/pinkmarble.jpg);
     min-height: 100px;
     background-size: cover;
+    background-color:white;
     background-position: center;
     padding-top:20px;
     border-top: 5px solid turquoise;
     border-bottom: 5px solid turquoise;
     border-right: 5px solid turquoise;
     border-left: 5px solid turquoise;
+ 
 }
 
+
+
 .projects{
+    position: relative;
     background-repeat: no-repeat;
     background-position: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     
+    
+}
+.labs{
+    position: relative;
+    color: lightpink;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 0px;
 }
 
 nav{
