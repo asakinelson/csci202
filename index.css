@@ -9,7 +9,7 @@ h2{
 }
 .info{
     color: rgb(156, 78, 117);
-    background-image: url(..pinkmarble.jpg);
+    background-image: url(../pinkmarble.jpg);
     min-height: 100px;
     background-size: cover;
     background-color:white;
