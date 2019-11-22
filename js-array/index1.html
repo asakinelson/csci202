@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {font-size: 80px;
+text-align: center;
+}   
+    
+span { color: red;
+}
+    
+</style>    
+</head>    
+    
+    
+<body>
+
+<p>Mary has <span id = "FruitCount" ></span> pieces of fruit, <span id = "AppleCount" ></span> apples, and <span id = "BananaCount" ></span> banana.</p>
+
+
+<p> Mary eats <span>1</span> apple. <br> She now has <span id = "SecondAppleCount" ></span> apples and a total of <span id = "SecondFruitCount" ></span>  fruits.</p>
+
+<p>Click the button to make the word apple appear as many as you'd like</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+  
+  // the value of the variables are arrays
+ 
+  var apples = ["Fuji", "Red Delicious", "Honeycrisp", "Granny Smith"];
+  var bananas = ["Cavendish", "Lady's Finger", "Red Bananas"];
+  
+  // the concat() method joins two or more arrays
+  var fruits = apples.concat(bananas);
+  var fruits = ["Banana", "Apple"];
+  
+  // the output is the total number of elements within the array, i.e. bananas.length = 3
+    
+  document.getElementById("BananaCount").innerHTML = bananas.length;
+  document.getElementById("AppleCount").innerHTML = apples.length;
+  document.getElementById("FruitCount").innerHTML = fruits.length;
+  // the shift() method removes the first array element, ie the "Fuji" apple. 
+  
+  apples.shift();
+  fruits.shift();
+  
+  document.getElementById("SecondAppleCount").innerHTML = apples.length;
+  document.getElementById("SecondFruitCount").innerHTML = fruits.length;
+  document.getElementById("demo").innerHTML = fruits;
+  function myFunction() {
+  fruits.push("Apple");
+  document.getElementById("demo").innerHTML = fruits;
+}
+
+</script>
+
+</body>
+</html>

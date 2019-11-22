@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+p {font-size: 120px;
+text-align: center;
+color: hotpink;
+}    
+
+</style>
+
+<body>
+
+<p id="narrative"></p>
+
+<script>
+// declaring the variable storyworld, with json object of characters 
+var storyworld = '{"characters":[' +
+'{"name":"Epstein","wants":"more conspiracy theories ", "mood":"bored"},' +
+'{"name":"Dustin","wants":"clarity", "mood":"confused about the world" },' +
+    
+'{"name":"Amy","wants":"true sauce", "mood":"determined" },' +
+
+'{"name":"Joe","wants":"to be above average", "mood":"average" },' +
+    
+'{"name":"Alyssa","wants":"the most attention", "mood":"confident" },' +
+    
+'{"name":"Asaki","wants":"more drama", "mood":"eh" },' +
+'{"name":"Vrad","wants":"to be not so average", "mood":"average"}]}';
+// declaring the variable story, with a random value of 0 - 5
+var story = Math.floor(Math.random() * 6);
+var mix = Math.floor(Math.random() * 6);
+    
+obj = JSON.parse(storyworld);
+document.getElementById("narrative").innerHTML =
+obj.characters[story].name + " is feeling " + obj.characters[story].mood + ", and wants " + obj.characters[mix].wants + ".";
+</script>
+
+</body>
+</html>

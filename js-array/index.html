@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {font-size: 60px;
+text-align: center;
+} 
+span { color: red;
+}
+</style>    
+</head>    
+    
+    
+<body>
+
+<p>Kringle has <span id = "FruitCount" ></span> pieces of cookies: <span id = "AppleCount" ></span> chocolate cookies, and <span id = "BananaCount" ></span> ginger cookies. </p> 
+
+<p> Kringle eats <span>1</span> ginger cookie. <br> He now has <span id = "SecondAppleCount" ></span> ginger cookies and a total of <span id = "SecondFruitCount" ></span>  cookies.</p>
+
+
+<script>
+var apple = 3;
+var banana = 4;
+var fruit = apple + banana;
+document.getElementById("FruitCount").innerHTML = fruit;
+document.getElementById("AppleCount").innerHTML = apple;
+document.getElementById("BananaCount").innerHTML = banana;
+document.getElementById("SecondAppleCount").innerHTML = apple - 1;
+document.getElementById("SecondFruitCount").innerHTML = fruit - 1;
+</script>
+
+</body>
+</html>
